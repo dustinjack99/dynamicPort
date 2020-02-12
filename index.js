@@ -57,7 +57,7 @@ async function init() {
 
         fs.writeFile("index.html", html, (err) => {
             if (err) throw err;
-            console.log("wrote a pdf!")
+            console.log("wrote to index!")
         });
 
         // console.log("Profile Pic: " + data.avatar_url);
@@ -74,8 +74,7 @@ async function init() {
             const browser = await puppeteer.launch();
             const page = await browser.newPage();
            
-            await page.goto("index.html");
-            await page.screenshot("index.html");
+            await page.goto("file://C:/Users/dusti/desktop/dynamicPort/index.html");
             await page.pdf({path: 'portfolio.pdf', format: 'A4'});
             await browser.close();
           })();
