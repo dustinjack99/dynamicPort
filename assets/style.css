@@ -1,0 +1,38 @@
+a {
+    color: whitesmoke;
+}
+
+#bio {
+    padding-top: 20px;
+}
+
+#bio, div {
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+body {
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 95%
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h3 {
+    padding-bottom: 30px;
+}
+
+img {
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    margin: auto;
+}
