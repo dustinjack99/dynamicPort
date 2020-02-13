@@ -55,5 +55,3 @@ Thankfully, there's an *if* function that looks for that. It will default the ba
 of the portfolio to lightblue - a very pleasant color for a professional portfolio.
 <br>
 <br>
-
-# Process
