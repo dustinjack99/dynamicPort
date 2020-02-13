@@ -10,11 +10,13 @@ User starts by entering their github profile name, followed by their favorite co
 A user can't choose white as a color, because the text used in the portfolio is white.
 A few async functions fire off - one that makes and API call to Github and one that
 grabs the userdata entered. 
-
+<br>
+<br>
 
 ![Image 1](/assets/scrn1.png)
 ##### (Basic example of input)
-
+<br>
+<br>
 
 Using the user and API data from Github, the JS generates an HTML template literal and
 writes a new index.html file. Then using NPM Puppeteer, the index.html is thrown into 
